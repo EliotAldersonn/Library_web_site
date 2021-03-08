@@ -1,21 +1,98 @@
 
 <!DOCTYPE html>
-<HTML>
-<HEAD>
-<TITLE> Service d'authentification </TITLE>
-<link rel="stylesheet" href="First.css">
-</HEAD> 
-<BODY>
-
-    <img  src="image.gif" width="100" height="100" class="logo">
-    <H1>  /  Service d'authentification  </H1> 
-   
-   
-<span class="slash">&#8725;</span>
+<html>
+	<head>
+	    <title>Service d'authentification</title>
+  		
+      <link type="text/css" rel="stylesheet" media="screen" href="First.css"/>
+</head>
     
-    
+	<body id="cas">
+    <div class="view">
+        <div>
+	            
+				<div id="header">
+				  <h1 class="mark">
+            <a href="">
+           <img  src="image.gif" class="logo">
+            </a>
+        </h1>
+				</div>
+            
+		    <div id="nav">
+          <h2 id="nav-title">
+            <span class="slash-parent">
+              <span class="slash-child"></span>
+            </span>
+            <div class="app-name">
+              <span class="auth-label">Service d'authentification</span>
+            </div>
+          </h2>
+        </div>
 
-   
-       
-</BODY>
-</HTML> 
+        <div id="content">
+
+
+
+
+  <div class="box fl-panel" id="login">
+		<div class="forms-container">	
+      <form id="fm1" class="fm-v clearfix" action="" method="post">
+                  
+               
+                    <h3>Connectez-vous pour accéder à vos services numériques.</h3>
+                    <div class="row fl-controls-left">
+                        <label for="username" class="fl-label">
+                        <span class="accesskey">I</span>dentifiant</label>
+						<input id="username" name="username" class="required" accesskey="i" type="text" value="" size="25"/>
+				   </div>
+          
+          
+                    <div class="row fl-controls-left">
+                        <label for="password" class="fl-label">
+                        <span class="accesskey">M</span>ot de passe</label>
+						<input id="password" name="password" class="required" accesskey="m" type="password" value="" size="25" />
+                        
+                        
+            <div><a href="<!-- add here the directed page of el asri -->"
+                    class="lost-password">Mot de passe oublié ?</a></div>
+                    </div>
+          
+                    <div class="row check">
+                        <input id="warn" name="warn" value="true" type="checkbox" />
+                        <label for="warn"><span class="accesskey">P</span>révenez-moi avant d'accéder à d'autres services.</label>
+                    </div>
+          
+          
+                    <div class="row btn-row">
+						
+                        <input class="btn btn-submit" name="submit" accesskey="l" value="Se connecter"  type="submit"/>
+                        <input class="btn btn-reset" name="reset" accesskey="c" value="Effacer"  type="reset" />
+                    </div>
+       </form>
+    </div>
+ 		</div>
+  </div>
+</div> 
+        
+        
+        
+                <div id="footer" class="fl-panel fl-note fl-bevel-white fl-font-size-80">
+                	<div class="ulr-signature">
+                        <span class="name">École Supérieure de Technologie d'Oujda</span>
+                        <span class="contact">
+                            <span>BP 473 Complexe universitaire Al Qods,</span>
+                            <span>Oujda 60000</span>
+                            <span>05365-00224</span>
+                            <span><a href="mailto:esto@ump.ac.ma">esto@ump.ac.ma</a></span>
+                        </span>
+                        
+                    </div>
+                  </div>
+				<div id="page-bot">&nbsp;</div>
+            </div> 
+    
+    </body>
+</html>
+
+
